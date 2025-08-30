@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+body {
+    background-image: url("images/flowers.jpg");
+    background-color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+.front-page-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+    width: 95vw;
+    border-top: 3px solid #0707EC;
+    border-right: 3px solid #0707EC;
+    border-radius: 50%;
+}
+
+.front-page-container section {
+    width: 47%;
+    height: 95%;
+    margin: 0 2rem;
+    padding: 1rem;
+}
+
+.about h3 {
+    text-align: center;
+}
+
+.about {
+    text-align: justify;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.login-register {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.login-register-tabs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 4rem 0 1rem 0;
+    text-align: center;
+    width: 65%;
+}
+
+.login-register-tabs button {
+    padding: 20px;
+    height: 100%;
+    width: 45%;
+    background-color: black;
+    color: white;
+    outline: 1px solid #0707EC;
+    border-radius: 50%;
+}
+
+#login {
+    display: block;
+}
+
+#register {
+    display: none;
+}

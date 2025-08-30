@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>My Bookshelf</title>
+</head>
+<body>
+
+    <main>
+        <h1>My Bookshelf</h1>
+
+        <div class="front-page-container">
+            <!-- Blurb about and how to use the web application. -->
+            <section class="about">
+                <h3>About My Bookshelf</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error aspernatur nam molestias quod nisi tempore nemo dolorum quisquam praesentium dolore ab a, id dolor inventore officiis commodi itaque ullam.</p>
+
+                <h3>How to Use My Bookshelf</h3>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, unde. Odio architecto earum blanditiis deleniti error, iure officia magnam modi accusamus veritatis eius assumenda itaque facilis commodi corrupti quibusdam mollitia.</p>
+            </section>
+
+            <!-- Forms for logging in and registering to use the web application. -->
+            <section class="login-register">
+                <div class="login-register-tabs">
+                    <button onclick="toggleLoginRegister(loginTab)">Login</button>
+                    <button onclick="toggleLoginRegister(registerTab)">Register</button>
+                </div>
+
+                <div id="login">
+                    <h4>Login</h4>
+                    <p>Username</p>
+                    <p>Password</p>
+                    <p>Login Button</p>
+                </div>
+
+                <div id="register">
+                    <h4>Register</h4>
+                    <p>Username</p>
+                    <p>Create Password</p>
+                    <p>Verify Password</p>
+                    <p>Register Button</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <script src="scripts/front-page.js"></script>
+</body>
+</html>

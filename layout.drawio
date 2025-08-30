@@ -1,0 +1,154 @@
+<mxfile host="65bd71144e">
+    <diagram id="GHiIbKqTcQpshHRvGoyf" name="Page-1">
+        <mxGraphModel dx="1004" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="22" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="590" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;My Bookshelf&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="20" width="310" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="20" width="230" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Bookcases&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="25" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Livingroom Bookcase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="170" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Bedroom Bookcase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="210" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Office Bookcase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="250" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="370" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Manage Bookcases" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="370" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="137.5" width="60" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="List of the books in Bookcase 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="100" width="360" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;My Bookshelf - Manage Bookcases Page&lt;/font&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="510" width="480" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Bookcase 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="590" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Livingroom Bookcase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="590" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Bedroom Bookcase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="590" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Office Bookcase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="590" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Add New Bookcase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="590" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="620" width="750" height="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Delete Bookcase" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="630" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="680" width="320" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="680" width="320" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="970" width="320" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Title" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="695" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Author" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="725" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Copyright" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="105" y="755" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="790" width="280" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Thoughts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="805" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Title" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="465" y="695" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Author" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="725" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Copyright" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="455" y="755" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="465" y="790" width="280" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Thoughts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="465" y="805" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Title" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="985" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Author" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="1015" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Copyright" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="105" y="1045" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="1080" width="280" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Thoughts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="1095" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Bookcase 1 List" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="100" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="130" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Bookcase 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;My Bookshelf&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="1320" width="310" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Blurb about My Bookshelf and how to use it." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1400" width="330" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="1400" width="330" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Register" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="1400" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Login" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="1400" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Username" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="1470" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Password" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="1535" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Login/Register" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="1610" width="110" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
