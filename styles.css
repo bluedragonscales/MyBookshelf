@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     cursor: default;
+    font-family: "Cormorant Garamond", serif;
+    font-size: large;
 }
 
 a, button {
@@ -29,6 +31,9 @@ main {
 
 h1 {
     padding: 1rem;
+    font-family: "Cinzel Decorative", serif;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
 }
 
 .front-page-container {
@@ -38,9 +43,9 @@ h1 {
     align-items: flex-start;
     height: 80vh;
     width: 95vw;
-    border-top: 3px solid #0707EC;
+    /* border-top: 3px solid #0707EC;
     border-right: 3px solid #0707EC;
-    border-radius: 50%;
+    border-radius: 50%; */
 }
 
 .front-page-container section {
@@ -78,6 +83,7 @@ h1 {
 }
 
 .login-register-tabs button {
+    font-family: "Cinzel Decorative", serif;
     padding: 20px;
     height: 100%;
     width: 45%;
@@ -90,21 +96,21 @@ h1 {
 #login {
     display: block;
     height: 100%;
-    width: 80%;
+    width: 90%;
 }
 
 #register {
     display: none;
     height: 100%;
-    width: 80%;
+    width: 90%;
 }
 
 .login-register form {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
-    align-items: center;
     height: 100%;
+    text-align: center;
 }
 
 .login-register-button {
@@ -113,6 +119,8 @@ h1 {
     color: white;
     outline: 1px solid rgb(7, 7, 236);
     border-radius: 50%;
+    font-family: "Cinzel Decorative", serif;
+    width: 30%;
 }
 
 button:hover {
