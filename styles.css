@@ -118,3 +118,15 @@ h1 {
 button:hover {
     background-color: rgba(7, 7, 236, 0.3);
 }
+
+input {
+    padding: 5px;
+    color: #0707EC;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px 2px white;
+}

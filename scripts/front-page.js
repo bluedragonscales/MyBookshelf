@@ -14,12 +14,14 @@ function toggleLoginRegister(tab) {
         loginTab.style.display = 'block';
         registerTab.style.display = 'none';
 
+        // Highlight the tab button for the tab currently in focus.
         loginTabBtn.style.backgroundColor = 'rgba(7, 7, 236, 0.3)';
         registerTabBtn.style.backgroundColor = 'black';
     } else {
         registerTab.style.display = 'block';
         loginTab.style.display = 'none';
 
+        // Highlight the tab button for the tab currently in focus.
         registerTabBtn.style.backgroundColor = 'rgba(7, 7, 236, 0.3)';
         loginTabBtn.style.backgroundColor = 'black';
     }
