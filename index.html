@@ -28,23 +28,25 @@
             <!-- Forms for logging in and registering to use the web application. -->
             <section class="login-register">
                 <div class="login-register-tabs">
-                    <button onclick="toggleLoginRegister(loginTab)">Login</button>
-                    <button onclick="toggleLoginRegister(registerTab)">Register</button>
+                    <button id="loginTabBtn" onclick="toggleLoginRegister(loginTab)">Login</button>
+                    <button id="registerTabBtn" onclick="toggleLoginRegister(registerTab)">Register</button>
                 </div>
 
                 <div id="login">
-                    <h4>Login</h4>
-                    <p>Username</p>
-                    <p>Password</p>
-                    <p>Login Button</p>
+                    <form action="" method="POST">
+                        <input type="email" name="" id="">
+                        <input type="password" name="" id="">
+                        <button class="login-register-button">Login</button>
+                    </form>
                 </div>
 
                 <div id="register">
-                    <h4>Register</h4>
-                    <p>Username</p>
-                    <p>Create Password</p>
-                    <p>Verify Password</p>
-                    <p>Register Button</p>
+                    <form action="" method="POST">
+                        <input type="email" name="" id="">
+                        <input type="password" name="" id="">
+                        <input type="password" name="" id="">
+                        <button class="login-register-button">Register</button>
+                    </form>
                 </div>
             </section>
         </div>
