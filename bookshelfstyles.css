@@ -36,6 +36,44 @@ h1 {
     font-size: 2.5rem;
 }
 
+main div {
+    width: 95vw;
+    height: 80vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.add-book-form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.list-of-books {
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.list-of-books article {
+    height: 30%;
+    width: 30%;
+    /* border: 2px solid rgb(188, 2, 27); */
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+}
+
+h4 {
+    border-bottom: 3px solid rgb(188, 2, 27);
+    margin-bottom: 10px;
+}
+
 /* .front-page-container {
     display: flex;
     flex-flow: row nowrap;
@@ -83,25 +121,24 @@ h1 {
     justify-content: space-evenly;
     height: 100%;
     text-align: center;
-}
+} */
 
-.login-register-button {
+button {
     padding: 20px;
     background-color: black;
     color: white;
-    outline: 1px solid rgb(7, 7, 236);
+    outline: 1px solid rgb(188, 2, 27);
     border-radius: 50%;
     font-family: "Cinzel Decorative", serif;
-    width: 30%;
-} */
+}
 
-/* button:hover {
-    background-color: rgba(7, 7, 236, 0.3);
+button:hover {
+    background-color: rgba(188, 2, 27, 0.3);
 }
 
 input {
     padding: 5px;
-    color: #0707EC;
+    color: rgb(188, 2, 27);
     font-size: 1.1rem;
     border-radius: 5px;
     cursor: pointer;
@@ -109,4 +146,4 @@ input {
     outline: none;
     border: none;
     box-shadow: 0 0 5px 2px white;
-} */
+}
