@@ -8,7 +8,7 @@ import oracledb
 DB_USER = "ADMIN"
 DB_PASSWORD = "$Forever2906Writing"
 # If you want to connect using your wallet, comment out the following line.
-CONNECT_STRING = '(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-sanjose-1.oraclecloud.com))(connect_data=(service_name=g75d4fd0db3f240_bookshelfdb1_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))'
+CONNECT_STRING = '(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-sanjose-1.oraclecloud.com))(connect_data=(service_name=g75d4fd0db3f240_bookshelfdb1_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))'
 def run_app():
 	try:
 		# If THICK mode is needed, uncomment the following line.
