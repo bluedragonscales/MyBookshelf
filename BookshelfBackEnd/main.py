@@ -2,6 +2,7 @@
 # service layer, then the data access layer.
 from flask import Flask, request, jsonify
 from entities.reader import Reader
+from data_access_layer.reader_data_access import ReaderDataAccess
 
 # READER LOGIN: receive user email and password to login. Data passed to the test layer.
 # BOOK CREATION: add book details to create a book and add it to the user's book list.
@@ -13,18 +14,35 @@ from entities.reader import Reader
 app = Flask(__name__)
 
 # REGISTER/CREATE READER
-# Use the "route" decorator and specify the add-on portion of the main website url in parentheses.
-# When the user goes to www.main-url.com/reader they will activate the function right below this
-# decorator called "create_reader()".
-@app.route("/reader")
+# Use the "route" decorator and specify the add-on portion of the website url in parentheses.
+# When the user fills out the register form the form action will specify the /register route and
+# that will activate the function right below this decorator called "create_reader()".
+@app.route("/register")
 def create_reader():
     try:
+        # The information passed through the HTTP request with JavaScript at the front end is requested
+        # by this /register route (form action) and parsed into a JSON dictionary format, needed in the
+        # same format as the reader entity dictionary method. The JSON dictionary is saved in the
+        # variable "new_reader_data".
         new_reader_data = request.get_json()
-        new_reader_object = Reader(new_reader_data["readerId"], new_reader_data["firstName"],
-                                   new_reader_data["email"], new_reader_data["password"])
-        # reader_json_to_service_layer =
+        # The JSON dictionary of information received from the front end is then used to create a
+        # new reader object with the imported Reader entity. The readerId data is a temporary value
+        # because the real id is automatically created in the database as a SERIAL value. However,
+        # we still need that readerId parameter to correctly instantiate the reader object.
+        new_reader_object = Reader(0, new_reader_data["firstName"],
+                                   new_reader_data["readerEmail"], new_reader_data["readerPassword"])
+        # Send the newly instantiated reader object to the data access layer's register_reader()
+        # method. It will move onto the database, be added to the proper DB table and the method's
+        # returned reader object will be stored in "reader_to_database".
+        reader_to_database = ReaderDataAccess.register_reader(new_reader_object)
+        # Use the entity's dictionary method to recollect the reader object's information in a
+        # dictionary.
+        reader_to_frontend = reader_to_database.reader_dictionary()
+        # Turn the reader object's Python dictionary into a JSON dictionary that will be sent back
+        # to the front end, along with the 201 response code.
+        return jsonify(reader_to_frontend), 201
     except:
-        pass
+        return "DIDN'T WORK PROPERLY - FROM MAIN.PY"
 
 @app.route("/test")
 def make_routes():

@@ -1,7 +1,7 @@
 # The user entity will be called "reader". This blueprint will determine which details are stored
 # and retrieved from the database to work with in the application. The constructor initializes the
 # data needed to create the reader object. The reader_dictionary method is the JSON passed from
-# database to front end and back.
+# database to front end to back end and reverse.
 
 class Reader:
     def __init__(self, reader_id: int, first_name: str, email: str, password: str):
