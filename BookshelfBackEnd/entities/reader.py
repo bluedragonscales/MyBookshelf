@@ -4,7 +4,7 @@
 # database to front end to back end and reverse.
 
 class Reader:
-    def __init__(self, reader_id: int, first_name: str, email: str, password: str):
+    def __init__(self, reader_id, first_name, email, password):
         self.reader_id = reader_id
         self.first_name = first_name
         self.email = email

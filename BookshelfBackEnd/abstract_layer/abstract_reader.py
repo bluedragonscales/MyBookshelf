@@ -5,7 +5,7 @@ from entities.reader import Reader
 class ReaderBlueprint(ABC):
 
     @abstractmethod
-    def register_reader(self, reader: Reader) -> Reader:
+    def register_reader(self, reader: Reader):
         pass
 
     @abstractmethod
